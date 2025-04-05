@@ -51,8 +51,8 @@ else:
     st.table(current_cities)
 
 st.subheader("旅行客を乗せる最適ルート探索")
-m_value = st.number_input("車両数 (m)", value=4, min_value=1, step=1)
-Q_value = st.number_input("最大積載量 (Q)", value=800, min_value=1, step=50)
+m_value = st.number_input("航空機数 (m)", value=4, min_value=1, step=1)
+Q_value = st.number_input("最大搭乗数 (Q)", value=800, min_value=1, step=50)
 
 # Add the Optimize button
 st.subheader("最適化実行")
